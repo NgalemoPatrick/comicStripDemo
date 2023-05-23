@@ -1,0 +1,40 @@
+.comicContainer{
+  border:solid black;
+  border-width: 3px;
+  padding: .4em;
+}
+.topText{
+  border:solid red;
+  font-size:32px;
+  text-align:center;
+}
+
+.section{
+  border:solid purple;
+  width: 30%;
+}
+.pic{
+  border:solid blue;
+}
+.miniText{
+  border:solid green;
+}
+.rowOne, .rowTwo {
+  display: flex;
+  height: 32vh;
+  margin: 1em;
+  justify-content: space-evenly;
+
+}
+.miniText {
+  border:solid purple;
+    text-align:center;
+    background-color:blue;
+    color:white;
+    height:23px;
+    width:30%;
+    margin-top: 8.5em;
+}
+body {
+  background-color: aquamarine;
+}
