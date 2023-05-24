@@ -1,40 +1,46 @@
-.comicContainer{
-  border:solid black;
-  border-width: 3px;
-  padding: .4em;
-}
-.topText{
-  border:solid red;
-  font-size:32px;
-  text-align:center;
+.container {
+  border: 2px solid black;
+  margin: 0 auto;
+  height: 750px;
+  width: 1200px;
 }
 
-.section{
-  border:solid purple;
-  width: 30%;
-}
-.pic{
-  border:solid blue;
-}
-.miniText{
-  border:solid green;
-}
 .rowOne, .rowTwo {
   display: flex;
-  height: 32vh;
-  margin: 1em;
+  width: 1200px;
+  height: 275px;
   justify-content: space-evenly;
-
+  
 }
-.miniText {
-  border:solid purple;
-    text-align:center;
-    background-color:blue;
-    color:white;
-    height:23px;
-    width:30%;
-    margin-top: 8.5em;
+.title {
+  text-align: center;
+  width: 1200px;
+  height: 50px;
+  padding-top: 25px;
+  font-size: 32px;
 }
-body {
-  background-color: aquamarine;
+.txt {
+  display: flex;
+  width: 1200px;
+  height: 45px;
+  justify-content: space-evenly;
+  
+}
+.cell {
+  border: 2px solid black;
+  width: 350px;
+}
+.joke {
+  border: 2px solid black;
+  width: 350px;
+  height: 35px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color: rgb(11, 11, 88);
+  color: white;
+}
+.pic {
+  width: 350px;
+  object-fit: fill;
+  height: 275px;
 }
